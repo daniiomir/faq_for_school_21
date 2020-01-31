@@ -36,10 +36,11 @@ FAQ Школы 21 для новичков и не очень
 - [Установка valgrind для поиска утечек](#valgrind)
 - [Кончилось место на маке. Как почистить кэш?](#cache)
 - [Почему moulinette в fillit поставила -42 за функцию из libft](#error_fillit)
-- [Настройка дебаггера в VSCode](#vscode)
-- [Настройка Clion](#clion)
-- Как правильно и куда установить виртуалку для проектов init и roger-skyline
-- Сборник чекеров на проекты
+- [Настройка дебаггера в vscode](#vscode)
+- [Настройка clion](#clion)
+- [Как правильно и куда установить виртуалку для проектов init и roger-skyline](#debian)
+- [Сборник чекеров на проекты](#checkers)
+
 
 
 
@@ -254,5 +255,43 @@ FAQ Школы 21 для новичков и не очень
 
 <a name="clion">Настройка Clion</a>
 ---------------
-Для корректной работы Clion нужен аналог Makefile - CMakeList.txt.  
-К счастью, Clion умеет генерировать его автоматически.
+Для корректной работы clion нужен аналог Makefile - CMakeList.txt. К счастью, clion умеет генерировать его автоматически.  
+1. Нужно открыть clion и нажать - New CMake Project from sources. 
+2. Откроется окно, где нужно будет выбрать папку проекта.
+3. Нажимаем окей в следующем окне, где clion предлагает выбрать файлы проекта.
+4. Clion готов к работе.
+
+Если вам нужно запустить программу с аргументами:
+1. Нажимаем вверху на вкладку Run.
+2. Ищем Edit configurations и нажимаем.
+3. В поле Program arguments вписываем аргументы.
+
+<a name="checkers">Сборник чекеров на проекты</a>
+---------------
+Чекер для 6 начальных проектов - 
+[42FileChecker](https://github.com/jgigault/42FileChecker)  
+
+#### Libft
+[libft-unit-test](https://github.com/alelievr/libft-unit-test)  
+
+#### Fillit
+[fillit_checker](https://github.com/Millon15/fillit_checker)  
+
+#### Ft_printf
+[pft](https://github.com/gavinfielder/pft)  
+[printf-unit-test - 3,4 миллиона тестов](https://github.com/alelievr/printf-unit-test)  
+[curqui_test](https://github.com/curquiza/curqui_test)  
+
+#### Push_swap
+[push_swap cheker](docs/test.sh) (супер крутой чекер, сделанный студентом школы 21, если ты это видишь - отзовись, я вставлю ссылку на твой гит)  
+
+#### Lem-in
+[Lem-in-Checker](https://github.com/emilwallner/Lem-in-Checker)  
+[lem-in_test](https://github.com/TBouder/lem-in_test)  
+
+#### Filler
+[filler_checker](https://github.com/Millon15/filler_checker)  
+
+#### Corewar
+[42-Corewar-Checker](https://github.com/Gliperal/42-Corewar-Checker)  
+[unit-tests](https://github.com/rizkyario/corewar/tree/unit-tests)  
