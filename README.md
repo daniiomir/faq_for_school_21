@@ -271,20 +271,20 @@ FAQ Школы 21 для новичков и не очень
 Чекер для 6 начальных проектов
 * [42FileChecker](https://github.com/jgigault/42FileChecker)
 
-libft
+#### libft
 * [libft-unit-test](https://github.com/alelievr/libft-unit-test)
 
-fillit
+#### fillit
 * [fillit_checker](https://github.com/Millon15/fillit_checker)
 
-ft_printf
+#### ft_printf
 * [pft](https://github.com/gavinfielder/pft)
 * [printf-unit-test - 3,4 миллиона тестов](https://github.com/alelievr/printf-unit-test)
 * [curqui_test](https://github.com/curquiza/curqui_test)
 
-push_swap
+#### push_swap
 * [push_swap cheker](docs/test.sh) (супер крутой чекер, сделанный студентом школы 21, если ты это видишь - отзовись, я вставлю ссылку на твой гит)
 
-lem-in
+#### lem-in
 * [Lem-in-Checker](https://github.com/emilwallner/Lem-in-Checker)
 * [lem-in_test](https://github.com/TBouder/lem-in_test)
