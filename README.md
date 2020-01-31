@@ -33,7 +33,7 @@ FAQ Школы 21 для новичков и не очень
 **Вопросы, связанные с технической стороной**
 - [Установка Oh-My-Zsh](#zsh)
 - [Установка HomeBrew на Mac](#brew)
-- Установка valgrind для поиска утечек
+- [Установка valgrind для поиска утечек](#valgrind)
 - Кончилось место на маке. Как почистить кэш?
 - Почему moulinette поставила -42 за ft_putchar
 - Настройка Clion
@@ -184,17 +184,20 @@ FAQ Школы 21 для новичков и не очень
 
 <a name="zsh">Установка Oh-My-Zsh</a>
 ----------------
+Пишем в терминал и запускаем:  
 >sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 <a name="brew">Установка HomeBrew на Mac</a>
 ----------------
+Пишем в терминал и запускаем:  
 >curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
 
 <a name="valgrind">Установка valgrind для поиска утечек</a>
 ----------------
-Если нет homebrew:
->curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh
+Пишем в терминал и запускаем:  
+* Если нет homebrew:
+>curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh  
 >brew install valgrind  
 
-Если homebrew есть:
+* Если homebrew есть:
 >brew install valgrind  
