@@ -269,29 +269,29 @@ FAQ Школы 21 для новичков и не очень
 <a name="checkers">Сборник чекеров на проекты</a>
 ---------------
 Чекер для 6 начальных проектов
-* [42FileChecker](https://github.com/jgigault/42FileChecker)
+[42FileChecker](https://github.com/jgigault/42FileChecker)
 
 #### Libft
-* [libft-unit-test](https://github.com/alelievr/libft-unit-test)
+[libft-unit-test](https://github.com/alelievr/libft-unit-test)
 
 #### Fillit
-* [fillit_checker](https://github.com/Millon15/fillit_checker)
+[fillit_checker](https://github.com/Millon15/fillit_checker)
 
 #### Ft_printf
-* [pft](https://github.com/gavinfielder/pft)
-* [printf-unit-test - 3,4 миллиона тестов](https://github.com/alelievr/printf-unit-test)
-* [curqui_test](https://github.com/curquiza/curqui_test)
+[pft](https://github.com/gavinfielder/pft)
+[printf-unit-test - 3,4 миллиона тестов](https://github.com/alelievr/printf-unit-test)
+[curqui_test](https://github.com/curquiza/curqui_test)
 
 #### Push_swap
-* [push_swap cheker](docs/test.sh) (супер крутой чекер, сделанный студентом школы 21, если ты это видишь - отзовись, я вставлю ссылку на твой гит)
+[push_swap cheker](docs/test.sh) (супер крутой чекер, сделанный студентом школы 21, если ты это видишь - отзовись, я вставлю ссылку на твой гит)
 
 #### Lem-in
-* [Lem-in-Checker](https://github.com/emilwallner/Lem-in-Checker)
-* [lem-in_test](https://github.com/TBouder/lem-in_test)
+[Lem-in-Checker](https://github.com/emilwallner/Lem-in-Checker)
+[lem-in_test](https://github.com/TBouder/lem-in_test)
 
 #### Filler
-* [filler_checker](https://github.com/Millon15/filler_checker)
+[filler_checker](https://github.com/Millon15/filler_checker)
 
 #### Corewar
-* [42-Corewar-Checker](https://github.com/Gliperal/42-Corewar-Checker)
-* [unit-tests](https://github.com/rizkyario/corewar/tree/unit-tests)
+[42-Corewar-Checker](https://github.com/Gliperal/42-Corewar-Checker)
+[unit-tests](https://github.com/rizkyario/corewar/tree/unit-tests)
