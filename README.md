@@ -204,4 +204,9 @@ FAQ Школы 21 для новичков и не очень
 
 <a name="cache">Кончилось место на маке. Как почистить кэш?</a>
 ---------------
-
+* Пишем в терминал и запускаем: 
+>curl -fsSL https://raw.githubusercontent.com/daniiomir/faq_for_school_21/master/docs/clear.sh | sh  
+* Появляется сообщение:
+>Clean cache? (y/n): 
+* Пишем - y.
+* Кэш очищен.
