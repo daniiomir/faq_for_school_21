@@ -38,8 +38,8 @@ FAQ Школы 21 для новичков и не очень
 - [Почему moulinette в fillit поставила -42 за функцию из libft](#error_fillit)
 - [Настройка дебаггера в vscode](#vscode)
 - [Настройка clion](#clion)
-- Как правильно и куда установить виртуалку для проектов init и roger-skyline
-- Сборник чекеров на проекты
+- [Как правильно и куда установить виртуалку для проектов init и roger-skyline](#debian)
+- [Сборник чекеров на проекты](#checkers)
 
 
 
@@ -265,3 +265,19 @@ FAQ Школы 21 для новичков и не очень
 1. Нажимаем вверху на вкладку Run.
 2. Ищем Edit configurations и нажимаем.
 3. В поле Program arguments вписываем аргументы.
+
+<a name="checkers">Сборник чекеров на проекты</a>
+---------------
+Чекер для 6 начальных проектов
+* [42FileChecker](https://github.com/jgigault/42FileChecker)
+
+libft
+* [libft-unit-test](https://github.com/alelievr/libft-unit-test)
+
+fillit
+* [fillit_checker](https://github.com/Millon15/fillit_checker)
+
+ft_printf
+* [pft](https://github.com/gavinfielder/pft)
+* [printf-unit-test - 3,4 миллиона тестов](https://github.com/alelievr/printf-unit-test)
+* [curqui_test](https://github.com/curquiza/curqui_test)
