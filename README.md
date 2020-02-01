@@ -247,7 +247,7 @@ FAQ Школы 21 для новичков и не очень
 * Кэш очищен.
 
 Или:
->rm -rfv ~/Library/*42_cache*
+>rm -rfv ~/Library/\*42_cache*
 
 <a name="error_fillit">Почему moulinette в fillit поставила -42 за функцию из libft</a>
 ---------------
