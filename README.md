@@ -39,6 +39,7 @@ FAQ Школы 21 для новичков и не очень
 - [Почему moulinette в fillit поставила -42 за функцию из libft](#error_fillit)
 - [Настройка дебаггера в vscode](#vscode)
 - [Настройка clion](#clion)
+- [Скрипт для цветного norminette](#color_norm)
 - [Сборник чекеров на проекты](#checkers)
 
 
@@ -281,6 +282,12 @@ FAQ Школы 21 для новичков и не очень
 1. Нажимаем вверху на вкладку Run.
 2. Ищем Edit configurations и нажимаем.
 3. В поле Program arguments вписываем аргументы.
+
+<a name="color_norm">Скрипт для цветного norminette</a>
+---------------
+Ссылка на репозиторий, а так же скриншоты - [ТУТ](https://github.com/liftchampion/colorised_Norminette)  
+Как установить:
+>sh -c "$(curl -s https://bitbucket.org/liftchampion/colorised-norminette/raw/b4272f2c2dac52b1da721ae658815c43f64e5cb2/colorised_norm_install_installer.sh)"
 
 <a name="checkers">Сборник чекеров на проекты</a>
 ---------------
