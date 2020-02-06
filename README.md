@@ -314,7 +314,7 @@ FAQ Школы 21 для новичков и не очень
 [curqui_test](https://github.com/curquiza/curqui_test)  
 
 #### Push_swap
-[push_swap cheker](docs/test.sh) (супер крутой чекер, сделанный студентом школы 21, если ты это видишь - отзовись, я вставлю ссылку на твой гит)  
+[push_swap cheker](https://github.com/ksnow-be/push_swap_checker) (супер крутой чекер, сделанный студентом школы 21)  
 
 #### Lem-in
 [Lem-in-Checker](https://github.com/emilwallner/Lem-in-Checker)  
