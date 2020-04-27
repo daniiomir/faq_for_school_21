@@ -28,7 +28,7 @@ FAQ Школы 21 для новичков и не очень
 - [Вопросы об экзамене (C Exam Alone In The Dark - Beginner)](#exam)
 - [Как получить лицензию JetBrains (Clion, PyCharm и т.д.)](#get_jetbrains)
 - [Пора делать резюме. С чего начать?](#cv)
-- [Сайт со счетчиком уровней за проекты](#top_21)
+- [Сайты со счетчиком уровней за проекты](#top_21)
 - [Полезные каналы в slack](#slack)
 
 **Вопросы, связанные с технической стороной**
@@ -188,9 +188,10 @@ FAQ Школы 21 для новичков и не очень
 * Прочитайте [рекомендации по написанию к резюме](docs/Rekomendatsii_po_napisaniyu_rezyume_Scheglova_L.docx)
 * Заходите на сайт [canva.com](https://www.canva.com/) и начинайте создавать резюме :)
 
-<a name="top_21">Сайт со счетчиком уровней за проекты</a>
+<a name="top_21">Сайты со счетчиком уровней за проекты</a>
 ----------------
-[top-school-21.ru](https://top-school-21.ru/)
+* [top-school-21.ru](https://top-school-21.ru/)  
+* [https://isthisjazz.website/xpcalc.php](https://isthisjazz.website/xpcalc.php)
 
 <a name="slack">Полезные каналы в slack</a>
 ----------------
