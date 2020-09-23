@@ -333,6 +333,7 @@ FAQ Школы 21 для новичков и не очень
 
 #### Push_swap
 [push_swap cheker](https://github.com/ksnow-be/push_swap_checker) (супер крутой чекер, сделанный студентом школы 21)  
+[Визуализация push_swap](https://github.com/elijahkash/push_swap_gui)
 
 #### Lem-in
 [Lem-in-Checker](https://github.com/emilwallner/Lem-in-Checker)  
