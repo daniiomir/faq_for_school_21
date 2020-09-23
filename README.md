@@ -231,10 +231,10 @@ FAQ Школы 21 для новичков и не очень
 Пишем в терминал и запускаем:  
 * Если нет HomeBrew:
 >curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh  
->brew install valgrind
+>brew install --HEAD https://raw.githubusercontent.com/LouisBrunner/valgrind-macos/master/valgrind.rb
 
 * Если HomeBrew есть:
->brew install valgrind  
+>brew install --HEAD https://raw.githubusercontent.com/LouisBrunner/valgrind-macos/master/valgrind.rb
 
 Использование:
 >valgrind ./[ваш бинарник] [аргументы] --leak-check=full
