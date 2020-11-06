@@ -257,15 +257,7 @@ FAQ Школы 21 для новичков и не очень
 
 <a name="cache">Кончилось место на маке. Как почистить кэш?</a>
 ---------------
-* Пишем в терминал и запускаем:   
->curl -fsSL https://raw.githubusercontent.com/daniiomir/faq_for_school_21/master/docs/clear.sh | sh  
-* Появляется сообщение:  
->Clean cache? (y/n): 
-* Пишем - y.
-* Кэш очищен.
-
-Или:
->rm -rfv ~/Library/\*42_cache*
+>rm -rf ~/Library/Caches/*
 
 <a name="error_fillit">Почему moulinette в fillit поставила -42 за функцию из libft</a>
 ---------------
