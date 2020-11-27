@@ -43,6 +43,7 @@ FAQ Школы 21 для новичков и не очень
 - [Coding WIKI](#coding_wiki) 
 - [GCC или Clang?](#compiler)
 - [Как проверять оставшееся место на школьном маке?](#mac_memory)
+- [Ошибка при клонировании репозитория (Permission denied (publickey))](#error_publickey)
 - [Я настроил norminette по официальному гайду, но он продолжает не работать.](#vpn_norminett)
 - [Установка Oh-My-Zsh](#zsh)
 - [Установка HomeBrew на Mac](#brew)
@@ -252,6 +253,17 @@ FAQ Школы 21 для новичков и не очень
 Учимся пользоваться стандартными командами терминала.  
 >man du  
 >man df  
+
+<a name="error_publickey">Ошибка при клонировании репозитория (Permission denied (publickey))</a>
+----------------
+Не забываем выполнять действия из [21-school.ru/ssh](http://21-school.ru/ssh):  
+1) ssh_keygen  
+2) Три раза Enter  
+3) cat ~/.ssh/id_rsa.pub  
+4) Всё содержимое файла вставить в интру по ссылке [https://profile.intra.42.fr/gitlab_users/new](https://profile.intra.42.fr/gitlab_users/new)  
+5) Должен быть включен школьный VPN.  
+
+Все необходимые инструкции присутствуют в [21-school.ru/adm](https://21-school.ru/adm)
 
 <a name="vpn_norminett">Я настроил norminette по официальному гайду, но он продолжает не работать.</a>
 ----------------
