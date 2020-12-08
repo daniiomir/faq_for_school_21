@@ -226,11 +226,14 @@ FAQ Школы 21 для новичков и не очень
 ----------------
 * #21hackers - канал с хакатонами.
 * #21lectures - студенты пишут, кого хотят позвать в школу в качестве лектора.
-* #club-raspberry - канал кружка робототехники.
-* #help - канал для помощи в уборке.
-* #talks - обсуждение насущных вопросов школы с директором.
-* #datascience - канал дата саентистов.
 * #born_to_code - канал по вопросам о проектах и коде.
+* #club-raspberry - канал кружка робототехники.
+* #coding_cups - контесты по программированию.
+* #help - канал для помощи в уборке.
+* #kvartira - поиск жилья.
+* #talks - обсуждение насущных вопросов школы с директором.
+* #dir_talks -||-
+* #datascience - канал дата саентистов.
 * #school_life - обзор мероприятий и каналов.
 * #java - в основном Java SE.
 
@@ -393,6 +396,7 @@ IP norminette:
 #### Libft
 [libft-unit-test](https://github.com/alelievr/libft-unit-test)  
 [Libftest](https://github.com/jtoty/Libftest)  
+[test-libft](https://github.com/saugustu42/test-libft)
 
 #### Fillit
 [fillit_checker](https://github.com/Millon15/fillit_checker)  
