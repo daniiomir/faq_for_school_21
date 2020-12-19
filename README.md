@@ -224,6 +224,10 @@ FAQ Школы 21 для новичков и не очень
 
 <a name="slack">Полезные каналы в slack</a>
 ----------------
+* #chess_school21 - шахматный клуб.
+* #electronics - лаборатория электроники в московском кампусе.
+* #школьныйкофе - раз в неделю встречаемся с новым человеком и пьем кофе.
+* #мафия - мафия в московском кампусе.
 * #21hackers - канал с хакатонами.
 * #21lectures - студенты пишут, кого хотят позвать в школу в качестве лектора.
 * #born_to_code - канал по вопросам о проектах и коде.
@@ -310,12 +314,14 @@ IP norminette:
 <a name="valgrind">Установка valgrind для поиска утечек</a>
 ----------------
 Пишем в терминал и запускаем:  
-* Если нет HomeBrew:
+* Устанавливаем HomeBrew:
 >curl -fsSL https://rawgit.com/kube/42homebrew/master/install.sh | zsh  
->brew install --HEAD https://raw.githubusercontent.com/LouisBrunner/valgrind-macos/master/valgrind.rb
 
-* Если HomeBrew есть:
->brew install --HEAD https://raw.githubusercontent.com/LouisBrunner/valgrind-macos/master/valgrind.rb
+* Подключаем репозиторий:
+>brew tap LouisBrunner/valgrind
+
+* Устанавливаем valgrind:
+> brew install --HEAD LouisBrunner/valgrind/valgrind
 
 Использование:
 >valgrind ./[ваш бинарник] [аргументы] --leak-check=full
@@ -336,9 +342,17 @@ IP norminette:
 5. Нажимаем на кнопку с красным кругом и выбираем свой бинарник.
 6. Если нужны аргументы - пишем их в поле "Arguments".
 
-<a name="cache">Кончилось место на маке. Как почистить кэш?</a>
+<a name="cache">Кончилось место на маке. Как почистить кэш? Вводим команды по очереди.</a>
 ---------------
 >rm -rf ~/Library/Caches/*
+
+> rm -rf ~/Library/*42_cache*
+
+>rm -rf ~/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/
+
+>rm -rf ~/Library/Application\ Support/Slack/Cache/
+
+>rm -rf ~/Library/Application\ Support/Slack/Code\ Cache/
 
 <a name="error_fillit">Почему moulinette в fillit поставила -42 за функцию из libft</a>
 ---------------
