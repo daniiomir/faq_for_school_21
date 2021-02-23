@@ -40,6 +40,7 @@ FAQ Школы 21 для новичков и не очень
 - [Полезные каналы в slack](#slack)
 
 **Вопросы, связанные с технической стороной**
+
 - [Coding WIKI](#coding_wiki) 
 - [GCC или Clang?](#compiler)
 - [Как проверять оставшееся место на школьном маке?](#mac_memory)
@@ -54,8 +55,13 @@ FAQ Школы 21 для новичков и не очень
 - [Почему moulinette в fillit поставила -42 за функцию из libft](#error_fillit)
 - [Настройка дебаггера в vscode](#vscode)
 - [Настройка clion](#clion)
+- [Настройка Xcode для работы с проектами Школы 21](https://dimaru.github.io/guides-21/Xcode_setup.html)
+- [Создание проекта в Xcode](https://dimaru.github.io/guides-21/Xcode_21.html)
+- [norminette для Xcode](https://github.com/DimaRU/NorminetteLint)
+- [Плагин для Xcode Header 42](https://github.com/DimaRU/School42Header)
 - [Скрипт для цветного norminette](#color_norm)
 - [Сборник чекеров на проекты](#checkers)
+
 
 
 
