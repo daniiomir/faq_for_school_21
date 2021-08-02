@@ -51,6 +51,7 @@ FAQ Школы 21 для новичков и не очень
 - [Ликбез по устройству памяти компьютера и утечкам](#memory_manual)
 - [Установка valgrind для поиска утечек](#valgrind)
 - [Проверка на утечки в графическом проекте (FDF, Fract'ol и другие)](#gui_leaks)
+- [Leaks: ошибка "Failed to gain authorization"](#leaks_auth_error)
 - [Кончилось место на маке. Как почистить кэш?](#cache)
 - [Почему moulinette в fillit поставила -42 за функцию из libft](#error_fillit)
 - [Настройка дебаггера в vscode](#vscode)
@@ -347,6 +348,19 @@ IP norminette:
 4. Выбираем "Leaks"
 5. Нажимаем на кнопку с красным кругом и выбираем свой бинарник.
 6. Если нужны аргументы - пишем их в поле "Arguments".
+
+<a name="leaks_auth_error">Leaks: ошибка "Failed to gain authorization"</a>
+---------------
+Если при попытке запуска инструмента Leaks возникает ошибка "Failed to gain authorization":
+1. Создайте файл прав с помощью права com.apple.security.get-task-allow:
+> % /usr/libexec/PlistBuddy -c "Add :com.apple.security.get-task-allow bool true" tmp.entitlements<br/>
+File Doesn't Exist, Will Create: tmp.entitlements
+2. Подпишите свой код с помощью этих прав:
+> % codesign -s - --entitlements tmp.entitlements -f /path/to/tool<br/>
+xxst: replacing existing signature 
+
+После этого Leaks успешно запустит вашу программу.<br/>
+Решение найдено на форуме Apple Developer (ссылка на <a href="https://developer.apple.com/forums/thread/685964">тред</a>)
 
 <a name="cache">Кончилось место на маке. Как почистить кэш? Вводим команды по очереди.</a>
 ---------------
